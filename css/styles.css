@@ -1,0 +1,163 @@
+
+:root{
+--main-color: #2E2F42;
+--main-grey-color:#434455;
+--white-color:  #FFFFFF;
+--button-blue-color:  #4D5AE5;
+--main-bground-color: #F4F4FD;
+--background-button-color:#404BBF; 
+--footer-text-color: #E7E9FC;
+
+
+}
+body {  
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  background-color: var(--text-white-color);
+  color:var(--main-color);
+  letter-spacing: 0.02em;
+}
+.hide-title{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.list{
+  list-style: none;
+}
+/* logo */
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+.logo .heading{
+    color: var(--button-blue-color);
+}
+/* for footer logo */
+.logo .caption{
+  color:  var(--white-color);
+}
+/* nav */
+.nav-list .link {
+  font-weight: 500;
+  line-height: 1.5;
+  text-decoration: none;
+  color: var(--main-color);
+ }
+.link:hover,
+.link:focus
+{ 
+  color:var(--background-button-color);
+}
+/* auth list */
+.list .auth-link{
+  font-style: normal;
+  line-height: 1.5;
+  text-decoration: none;
+  color: var(--main-grey-color);
+}
+.auth-link:hover,
+.auth-link:focus
+{color:var(--background-button-color)
+}
+/* herosection */
+.hero{
+  background: var(--main-color);
+}
+/* text for hero */
+.hero .hero-text{
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  color: var(--white-color);
+}
+/* button for hero (primery button)*/
+.hero .button-primary{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white-color);
+  background: var(--button-blue-color);
+}
+.button-primary:hover,
+.button-primary:focus{
+background: var(--background-button-color);
+}
+/* hide the title */
+
+/* for portfolio button */
+.block .button-link{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;  
+  cursor: pointer;
+  color: var(--button-blue-color);
+  background: var(--main-bground-color);
+}
+.button-link:hover,
+.button-link:focus{
+ background: var(--background-button-color); 
+ color: var(--white-color);
+}
+/* for section1 */
+
+.section-text .subtitle{
+  font-size: 20px;
+  line-height: 1.2;
+  
+}
+.section-text .text{
+  line-height: 1.5;
+  color: var(--main-grey-color);  
+}
+/* for portfolio */
+.subtitle{
+  
+}
+/* section2 (second), only pictures */
+.section-img .title{
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  
+}
+/* section3 */
+.section {
+  background: var(--main-bground-color);
+}
+
+.section .title{
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  
+} 
+
+  /* for footer */
+.footer{
+background: var(--main-color);
+}
+.footer .text-footer{
+  line-height: 1.5;  
+  color:var(--footer-text-color);
+}
+
+
