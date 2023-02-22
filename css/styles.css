@@ -242,8 +242,7 @@ img {
 } 
 
 .card-img .item{
-  width: 360px;
-   flex-basis: calc(100% / 3 - 24px);
+  flex-basis: calc(100% / 3 - 24px);
 
 } 
 .card-content{
